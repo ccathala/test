@@ -1,5 +1,7 @@
 language: java
 
+sudo: true
+
 jdk:
   - openjdk11
 
@@ -8,3 +10,6 @@ branches:
   only:
   - master
   - develop
+
+before_install:
+  - chmod +x mvnw

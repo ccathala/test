@@ -1,0 +1,10 @@
+language: java
+
+jdk:
+  - openjdk11
+
+# safelist
+branches:
+  only:
+  - master
+  - develop
